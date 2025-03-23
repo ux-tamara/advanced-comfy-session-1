@@ -124,6 +124,15 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: npyn847qgn
+    name: product_photography_app_api.json
+    file: inpainting_and_outpainting/product_photography_app_api.json
+    version: 0
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -173,3 +182,7 @@ normal_workflows:
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
     version: 1
+  - id: hnizixmhn7
+    name: product_photography_app.json
+    file: inpainting_and_outpainting/product_photography_app.json
+    version: 0
