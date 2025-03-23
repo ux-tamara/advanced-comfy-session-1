@@ -127,10 +127,33 @@ workflows:
   - id: npyn847qgn
     name: product_photography_app_api.json
     file: inpainting_and_outpainting/product_photography_app_api.json
-    version: 0
+    version: 1
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 64.inputs.image
+        label: Input Product Image
+        parameter_name: image_59727
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 65.inputs.default_value
+        label: Background Prompt
+        parameter_name: default_value_55613
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 66.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_42922
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Output Image
+        demo_type: image
     skip_preprocess: true
     advancedConfig: false
 normal_workflows:
@@ -185,4 +208,4 @@ normal_workflows:
   - id: hnizixmhn7
     name: product_photography_app.json
     file: inpainting_and_outpainting/product_photography_app.json
-    version: 0
+    version: 1
