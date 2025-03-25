@@ -133,7 +133,7 @@
     },
     "20": {
         "inputs": {
-            "seed": 654689829781574,
+            "seed": 983005470743390,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -359,7 +359,7 @@
     },
     "35": {
         "inputs": {
-            "seed": 786506531041769,
+            "seed": 1067402709675299,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -635,14 +635,14 @@
     "55": {
         "inputs": {
             "mode": "soft_light",
-            "blur_sigma": 5,
+            "blur_sigma": 1,
             "blend_factor": 1,
             "target": [
                 "50",
                 0
             ],
             "source": [
-                "29",
+                "50",
                 0
             ],
             "mask": [
@@ -762,7 +762,7 @@
         "inputs": {
             "filename_prefix": "FlowScale",
             "format": "png",
-            "label": "Output Image",
+            "label": "New Image",
             "quality": 95,
             "lossless": false,
             "images": [
@@ -777,9 +777,9 @@
     },
     "65": {
         "inputs": {
-            "image": "example.png",
+            "image": "Tam Makes Cent$.png",
             "upload": "image",
-            "label": "Input Product Image"
+            "label": "Upload Product Image"
         },
         "class_type": "FSLoadImage",
         "_meta": {
@@ -788,8 +788,8 @@
     },
     "66": {
         "inputs": {
-            "default_value": "",
-            "label": "Background Prompt"
+            "default_value": "logo on a back t-shirt",
+            "label": "Describe the Background"
         },
         "class_type": "FSLoadText",
         "_meta": {
