@@ -27,10 +27,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_segment_anything",
+                "aux_id": "storyicon/comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "SAMModelLoader (segment anything)",
-                "aux_id": "storyicon/comfyui_segment_anything"
+                "cnr_id": "comfyui_segment_anything"
             },
             "widgets_values": [
                 "sam_vit_h (2.56GB)"
@@ -61,10 +61,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_segment_anything",
+                "aux_id": "storyicon/comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoModelLoader (segment anything)",
-                "aux_id": "storyicon/comfyui_segment_anything"
+                "cnr_id": "comfyui_segment_anything"
             },
             "widgets_values": [
                 "GroundingDINO_SwinT_OGC (694MB)"
@@ -122,10 +122,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_segment_anything",
+                "aux_id": "storyicon/comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "GroundingDinoSAMSegment (segment anything)",
-                "aux_id": "storyicon/comfyui_segment_anything"
+                "cnr_id": "comfyui_segment_anything"
             },
             "widgets_values": [
                 "object",
@@ -193,10 +193,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_segment_anything",
+                "aux_id": "storyicon/comfyui_segment_anything",
                 "ver": "ab6395596399d5048639cdab7e44ec9fae857a93",
                 "Node name for S&R": "InvertMask (segment anything)",
-                "aux_id": "storyicon/comfyui_segment_anything"
+                "cnr_id": "comfyui_segment_anything"
             },
             "widgets_values": []
         },
@@ -630,10 +630,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_essentials",
+                "aux_id": "cubiq/ComfyUI_essentials",
                 "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
                 "Node name for S&R": "ImageResize+",
-                "aux_id": "cubiq/ComfyUI_essentials"
+                "cnr_id": "comfyui_essentials"
             },
             "widgets_values": [
                 1024,
@@ -758,10 +758,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_controlnet_aux",
+                "aux_id": "Fannovel16/comfyui_controlnet_aux",
                 "ver": "1e9eac6377c882da8bb360c7544607036904362c",
                 "Node name for S&R": "LineArtPreprocessor",
-                "aux_id": "Fannovel16/comfyui_controlnet_aux"
+                "cnr_id": "comfyui_controlnet_aux"
             },
             "widgets_values": [
                 "disable",
@@ -948,10 +948,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui-ic-light",
+                "aux_id": "kijai/ComfyUI-IC-Light",
                 "ver": "0208191a9bd2a214167c8a52237ecadd1fa0220c",
                 "Node name for S&R": "ICLightConditioning",
-                "aux_id": "kijai/ComfyUI-IC-Light"
+                "cnr_id": "comfyui-ic-light"
             },
             "widgets_values": [
                 0.18
@@ -1043,10 +1043,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui-ic-light",
+                "aux_id": "kijai/ComfyUI-IC-Light",
                 "ver": "0208191a9bd2a214167c8a52237ecadd1fa0220c",
                 "Node name for S&R": "LoadAndApplyICLightUnet",
-                "aux_id": "kijai/ComfyUI-IC-Light"
+                "cnr_id": "comfyui-ic-light"
             },
             "widgets_values": [
                 "IC-Light/iclight_sd15_fc.safetensors"
@@ -1238,10 +1238,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_layerstyle",
+                "aux_id": "chflame163/ComfyUI_LayerStyle",
                 "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
                 "Node name for S&R": "LayerColor: Brightness & Contrast",
-                "aux_id": "chflame163/ComfyUI_LayerStyle"
+                "cnr_id": "comfyui_layerstyle"
             },
             "widgets_values": [
                 1.2,
@@ -1323,10 +1323,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "was-node-suite-comfyui",
+                "aux_id": "WASasquatch/was-node-suite-comfyui",
                 "ver": "9ae952b1b435d2bd846bfe6516919b5a8b9201aa",
                 "Node name for S&R": "Image Select Channel",
-                "aux_id": "WASasquatch/was-node-suite-comfyui"
+                "cnr_id": "was-node-suite-comfyui"
             },
             "widgets_values": [
                 "red"
@@ -1558,10 +1558,10 @@
             ],
             "title": "Positive Prompt",
             "properties": {
-                "cnr_id": "was-node-suite-comfyui",
+                "aux_id": "WASasquatch/was-node-suite-comfyui",
                 "ver": "9ae952b1b435d2bd846bfe6516919b5a8b9201aa",
                 "Node name for S&R": "Text Multiline",
-                "aux_id": "WASasquatch/was-node-suite-comfyui"
+                "cnr_id": "was-node-suite-comfyui"
             },
             "widgets_values": [
                 "luggage, kept in forest, trees background"
@@ -1605,10 +1605,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "CharacterFaceSwap",
+                "aux_id": "ArtBot2023/CharacterFaceSwap",
                 "ver": "f395496e5bf50d88579934ec2f776cd81866e8e9",
                 "Node name for S&R": "Color Blend",
-                "aux_id": "ArtBot2023/CharacterFaceSwap"
+                "cnr_id": "CharacterFaceSwap"
             },
             "widgets_values": [
                 "Luminosity"
@@ -1655,10 +1655,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_layerstyle",
+                "aux_id": "chflame163/ComfyUI_LayerStyle",
                 "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
                 "Node name for S&R": "LayerColor: AutoAdjustV2",
-                "aux_id": "chflame163/ComfyUI_LayerStyle"
+                "cnr_id": "comfyui_layerstyle"
             },
             "widgets_values": [
                 100,
@@ -1710,10 +1710,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "was-node-suite-comfyui",
+                "aux_id": "WASasquatch/was-node-suite-comfyui",
                 "ver": "9ae952b1b435d2bd846bfe6516919b5a8b9201aa",
                 "Node name for S&R": "Image Blend",
-                "aux_id": "WASasquatch/was-node-suite-comfyui"
+                "cnr_id": "was-node-suite-comfyui"
             },
             "widgets_values": [
                 0.2
@@ -1851,10 +1851,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui-ic-light",
+                "aux_id": "kijai/ComfyUI-IC-Light",
                 "ver": "0208191a9bd2a214167c8a52237ecadd1fa0220c",
                 "Node name for S&R": "DetailTransfer",
-                "aux_id": "kijai/ComfyUI-IC-Light"
+                "cnr_id": "comfyui-ic-light"
             },
             "widgets_values": [
                 "soft_light",
@@ -1900,10 +1900,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "ComfyUI-Image-Filters",
+                "aux_id": "spacepxl/ComfyUI-Image-Filters",
                 "ver": "7ba4e444f0416f5cf7ee55d56b1504dea2404ac7",
                 "Node name for S&R": "RestoreDetail",
-                "aux_id": "spacepxl/ComfyUI-Image-Filters"
+                "cnr_id": "ComfyUI-Image-Filters"
             },
             "widgets_values": [
                 "add",
@@ -1950,10 +1950,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "comfyui_layerstyle",
+                "aux_id": "chflame163/ComfyUI_LayerStyle",
                 "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
                 "Node name for S&R": "LayerColor: ColorAdapter",
-                "aux_id": "chflame163/ComfyUI_LayerStyle"
+                "cnr_id": "comfyui_layerstyle"
             },
             "widgets_values": [
                 80
@@ -1998,10 +1998,10 @@
                 }
             ],
             "properties": {
-                "cnr_id": "was-node-suite-comfyui",
+                "aux_id": "WASasquatch/was-node-suite-comfyui",
                 "ver": "9ae952b1b435d2bd846bfe6516919b5a8b9201aa",
                 "Node name for S&R": "Image Blend",
-                "aux_id": "WASasquatch/was-node-suite-comfyui"
+                "cnr_id": "was-node-suite-comfyui"
             },
             "widgets_values": [
                 0.2
@@ -2198,19 +2198,19 @@
             "widgets_values": [
                 "Tam Makes Cent$.png",
                 "image",
-                "Upload Product Image"
+                "Upload Image"
             ]
         },
         {
             "id": 66,
             "type": "FSLoadText",
             "pos": [
-                -262.6473083496094,
-                1234.0048828125
+                -135.3820037841797,
+                1221.935302734375
             ],
             "size": [
-                400,
-                200
+                210,
+                329.9914245605469
             ],
             "flags": {},
             "order": 6,
@@ -2990,10 +2990,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.8954302432552461,
+            "scale": 0.25937424601000036,
             "offset": [
-                -2530.5892350652175,
-                -1617.6157627139576
+                419.5220585236004,
+                -117.1728824840666
             ]
         }
     },
