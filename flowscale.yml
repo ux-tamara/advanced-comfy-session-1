@@ -103,11 +103,35 @@ workflows:
   - id: 56exyf4nvjg
     name: basic_relighting_api.json
     file: relighting/basic_relighting_api.json
-    version: 0
+    version: 1
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 64.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_82852
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 65.inputs.image
+        label: Upload Image
+        parameter_name: image_40851
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 66.inputs.default_value
+        label: Describe the Background
+        parameter_name: default_value_66288
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: New Image
+        demo_type: image
     skip_preprocess: true
+    advancedConfig: false
   - id: krht6t1ylzh
     name: product_photography_2_api.json
     file: inpainting_and_outpainting/product_photography_2_api.json
@@ -248,7 +272,7 @@ normal_workflows:
   - id: 6in8kl11ite
     name: basic_relighting.json
     file: relighting/basic_relighting.json
-    version: 0
+    version: 1
   - id: eeoibme22rl
     name: product_photography_2.json
     file: inpainting_and_outpainting/product_photography_2.json
