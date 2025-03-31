@@ -243,5 +243,25 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI Checkpoint Loader Config",
+    "url": "https://github.com/Cyberschorsch/ComfyUI-checkpoint-config-loader",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Cyberschorsch",
+      "title": "ComfyUI Checkpoint Loader Config",
+      "reference": "https://github.com/Cyberschorsch/ComfyUI-checkpoint-config-loader",
+      "files": [
+        "https://github.com/Cyberschorsch/ComfyUI-checkpoint-config-loader"
+      ],
+      "install_type": "git-clone",
+      "description": "Provides a custom node to load config for sampler nodes from a yaml file."
+    },
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "cached": "False"
   }
 ]
