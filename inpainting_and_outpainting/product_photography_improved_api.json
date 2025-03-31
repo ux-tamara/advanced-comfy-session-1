@@ -779,7 +779,7 @@
         "inputs": {
             "image": "Tam Makes Cent$.png",
             "upload": "image",
-            "label": "Upload Product Image"
+            "label": "Upload Image"
         },
         "class_type": "FSLoadImage",
         "_meta": {
